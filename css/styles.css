@@ -58,3 +58,44 @@ p {
   font-family: Montserrat;
   text-align: center;
 }
+
+
+/* contact form */
+
+.label {
+  color: #888888;
+}
+.formsubmit {
+background-color: #888888;
+  color: white;
+  text-align: center;
+}
+
+.formbtn {
+  text-align: center;
+
+}
+.btn {
+text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+.icons {
+  color: #888888;
+  font-size: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+a:hover {
+  color: #f0f0f0;
+}
+
+.policy{
+  color: #888888;
+  font-size: 15px;
+  padding-right: 2%;
+}
