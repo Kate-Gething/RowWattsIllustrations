@@ -102,6 +102,9 @@ input[type=text], select, textarea {
 }
 .formbtn {
   text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
 }
 /* input[type=submit] {
   background-color: #888888;
