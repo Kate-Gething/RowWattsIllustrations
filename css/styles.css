@@ -126,8 +126,17 @@ label {
   padding: 2%;
 }
 
+.email {
+  font-size: 20px;
+}
 
+@media (max-width: 900px) {
+  .email {
+    font-size: 15px;
+  }
+}
 
+/* footer */
 .footer {
   text-align: center;
 }
