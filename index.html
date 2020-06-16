@@ -155,48 +155,50 @@
 
 
 
-<!-- contact form -->
-<section id="contact-form">
-<div class="container-fluid">
-  <div class="row">
-        <div class="col">
-          <h3>For more information or to discuss a commission piece please contact me</h3>
-          <div class="form">
-            <br>
-            <br />
-          </div>
-        <!-- </div>
-      </div> -->
-      <form method="" name="contact_form" action="" enctype="text/plain">
-        <div class="row">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email Address</label>
-                      <div class="input-group">
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                        </span>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <label for="name">
-                        Message</label>
-                      <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
-                    </div>
-                     <div class="formbtn">
-                    <a href="thank_you.html"> <button type="submit" class="formsubmit btn btn-outline-secondary">Send Message</button></a>
-                  </div>
-                </diV>
-              </form>
+  <!-- contact form -->
+  <section id="contact-form">
+    <div class="container-fluid">
+      <h3 class="contact">For more information or to discuss a commission piece please get in touch</h3>
+      <div class="row">
+        <div class="col-sm-6">
+          <form action="mail.php" method="POST">
+
+            <label for="fname">First Name</label></label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+
+            <label for="subject">Subject</label>
+            <textarea id="Message" name="message" class="form-control" rows="9" cols="25" required="required" placeholder="Write your message here...." style="height:200px"></textarea>
+
+            <!-- <input type="submit" value="Submit"> -->
+            <div class="formbtn">
+              <a href=""> <button type="submit" class="formsubmit btn btn-outline-secondary">Send Message</button></a>
             </div>
-          </section>
+          </form>
+        </div>
 
+        <div class="info col-sm-6">
 
+          <i class="icons2 fas fa-phone-square-alt"></i>
+            <p>
+              07515477851
+            </p>
+
+          <i class="icons2 fas fa-envelope-open-text"></i>
+              <p>
+                Rowenawatts_illustrations@hotmail.com
+              </p>
+              <br />
+              <br />
+              <img class="artweek" src="images/artweek.jpg" alt="artweek logo">
+
+        </div>
+      </div>
+  </div>
+  </section>
   <!-- footer -->
 
 
