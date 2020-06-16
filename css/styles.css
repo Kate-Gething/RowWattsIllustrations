@@ -66,40 +66,76 @@ p {
   text-align: center;
 }
 
-
 /* contact form */
-
-.form-group {
-  color: #888888;
-   font-family: Montserrat;
+.contact {
+  padding: 8%;
 }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #888888;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /* resize: vertical; */
+  font-family: Montserrat;
+
+}
+
 .formsubmit {
-background-color: #888888;
+  background-color: #888888;
+  color: white;
+}
+.formsubmit:hover {
+  background-color: #dddddd;
   color: white;
   text-align: center;
 }
-
 .formbtn {
   text-align: center;
+}
+/* input[type=submit] {
+  background-color: #888888;
+} */
 
+label {
+  color: #888888;
+  font-family: Montserrat;
 }
-.btn {
-text-align: center;
+
+.info {
+  text-align: center;
 }
+
+.icons2 {
+  color: #888888;
+  font-size: 40px;
+  text-align: center;
+  padding: 2%;
+}
+
+
 
 .footer {
   text-align: center;
 }
 .icons {
   color: #888888;
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 2%;
-  padding-right: 2%;
+  p  text-align: center;
+}adding-right: 2%;
 
 }
 
+.icons:hover {
+  color: #dddddd;
+}
+
 a:hover {
-  color: #f0f0f0;
+  color: #dddddd;
 }
 
 .policy{
