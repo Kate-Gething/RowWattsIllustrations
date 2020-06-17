@@ -163,16 +163,20 @@
         <div class="col-sm-6">
           <form action="mail.php" method="POST" class="label">
 
+           <div class="label-control">
             <label class="label" for="fname">Name:</label>
             <input type="text" id="fname" class="form-control" name="firstname" required="required" placeholder="Your name...">
-            
+            </div>
+             
+           <div class="label-control">
             <label class="label" for="email">Email Address:</label>
             <input type="email" class="form-control" id="email" placeholder="Enter email..." required="required" />
-      
-
+           </div>
+             
+          <div class="label-control">
             <label class="label" for="subject">Subject:</label>
             <textarea id="Message" name="message" class="form-control" rows="9" cols="25" required="required" placeholder="Write your message here..." style="height:200px"></textarea>
-
+           </div>
             <!-- <input type="submit" value="Submit"> -->
             <div class="formbtn">
               <a href=""> <button type="submit" class="formsubmit btn btn-outline-secondary">Send Message</button></a>
