@@ -41,7 +41,7 @@ font-family: Montserrat;
 }
 
 .nav-link:hover {
-  color: #888888;
+  color: #dddddd;
 }
 
 .img-fluid {
@@ -113,6 +113,7 @@ input[type=text], select, textarea {
 .label {
   color: #888888;
   font-family: Montserrat;
+  padding-top:15px;
 }
 
 .info {
