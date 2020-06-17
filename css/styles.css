@@ -96,10 +96,7 @@ input[type=text, Email], select, textarea {
 
 }
 
-label[for=email, subject, fname], select, textarea {
-  font-family: Montserrat;
-  color: #888888;
-}
+
 
 .formsubmit {
   background-color: #888888;
