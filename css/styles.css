@@ -110,7 +110,7 @@ input[type=text, Email], select, textarea {
   background-color: #888888;
 } */
 
-.label {
+label {
   color: #888888;
   font-family: Montserrat;
   padding-top:15px;
