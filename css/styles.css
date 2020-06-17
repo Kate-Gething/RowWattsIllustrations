@@ -72,6 +72,11 @@ p {
   font-size: 1.5rem;
   text-align: center;
 }
+@media (max-width: 965px) {
+  p {
+    font-size: 1rem;
+  }
+}
 
 /* contact form */
 .contact {
