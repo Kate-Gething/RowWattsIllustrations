@@ -110,7 +110,7 @@ input[type=text], select, textarea {
   background-color: #888888;
 } */
 
-label {
+.label {
   color: #888888;
   font-family: Montserrat;
 }
